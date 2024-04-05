@@ -9,6 +9,6 @@ Datetime: A Python module used to work with dates and times, needed to record th
 
 os: A Python module used to access environment variables where the API keys are stored.
 
-Nutritionix API: An API used to get exercise and calorie burned data.
+Nutritionix API: An API used to get exercise and calorie burned data. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
 
-Sheety API: An API used to store the exercise data in a Google Sheet.
+Sheety API: An API used to store the exercise data in a Google Sheet. https://sheety.co/
