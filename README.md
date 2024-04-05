@@ -1,16 +1,17 @@
 # Exercise-Tracker-
-This project uses the Nutritionix API to keep track of exercises and calories burned. The data is stored in a Google Sheet through the Sheety API. The code lets you make exercise entries in the Google Sheet with the date, time, exercise name, duration, and calories burned.
+This Python script allows users to automatically log their daily exercises and the calories burned into a Google Sheets document. The user inputs the exercise they did and its duration, and the script uses the Nutritionix API to calculate the calories burned. Then, it uses the Sheety API to add this information to a Google Sheets document.
 
 **Tools used:**
 
-Requests: A Python library used to send HTTP requests to the Nutritionix and Sheety APIs.
+Requests:  used to send HTTP requests to the Nutritionix and Sheety APIs.
 
-Datetime: A Python module used to work with dates and times, needed to record the date and time of each exercise entry.
+Datetime: used to work with dates and times, needed to record the date and time of each exercise entry.
 
 os: A Python module used to access environment variables where the API keys are stored.
 
-Nutritionix API: An API used to get exercise and calorie burned data. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
+Nutritionix API: Used to get data about the user’s exercise, like the calories burned. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
 
-Sheety API: An API used to store the exercise data in a Google Sheet. https://sheety.co/
+Sheety API: Used to add the exercise information to a Google Sheets document. https://sheety.co/
 
-Set environmental variables to protect sensitive data.
+Google Sheets: Used as a database to store the exercise information.
+
