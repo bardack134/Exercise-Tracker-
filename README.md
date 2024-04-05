@@ -15,3 +15,7 @@ Sheety API: Used to add the exercise information to a Google Sheets document. ht
 
 Google Sheets: Used as a database to store the exercise information.
 
+![img1](https://github.com/bardack134/Exercise-Tracker-/assets/142977989/746919f4-5f29-4fa1-85e2-acd91a51fcd5)
+
+
+![img2](https://github.com/bardack134/Exercise-Tracker-/assets/142977989/e1e3bc12-b779-43a7-bdc5-c5d7f0df54a0)
