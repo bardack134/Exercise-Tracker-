@@ -3,17 +3,15 @@ This Python script allows users to automatically log their daily exercises and t
 
 **Tools used:**
 
-Requests:  used to send HTTP requests to the Nutritionix and Sheety APIs.
+**Requests:**  used to send HTTP requests to the Nutritionix and Sheety APIs.
 
-Datetime: used to work with dates and times, needed to record the date and time of each exercise entry.
+**Datetime:** used to work with dates and times, needed to record the date and time of each exercise entry.
 
-os: A Python module used to access environment variables where the API keys are stored.
+**Nutritionix API:** Used to get data about the user’s exercise, like the calories burned. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
 
-Nutritionix API: Used to get data about the user’s exercise, like the calories burned. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
+**Sheety API:** It's tool that allows us to communicate with Google Sheets. We use Python to　write, and manage data in Google Sheets. It’s a very useful tool for automating tasks and managing data. https://sheety.co/
 
-Sheety API: Used to add the exercise information to a Google Sheets document. https://sheety.co/
-
-Google Sheets: Used as a database to store the exercise information.
+**Google Sheets:** Used as a database to store the exercise information.
 
 ![img1](https://github.com/bardack134/Exercise-Tracker-/assets/142977989/746919f4-5f29-4fa1-85e2-acd91a51fcd5)
 
