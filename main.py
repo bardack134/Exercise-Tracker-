@@ -1,7 +1,8 @@
+import os
 import requests
-from constants import *
 from datetime import datetime
-
+from requests.auth import HTTPBasicAuth 
+from constants import*
 
 #TODO: USANDO LA DOCUMENTACION DE LA API PARA ACCEDER A LAS ESTADISTICAS DEL EJERCICIO COMO CALORIAS QUEMADAS
 
@@ -85,7 +86,7 @@ for dic in exercises_list:
     
 
     # Making a POST request para cada sheety_parameters
-    sheety_response = requests.post(sheety_api_endpoint, headers=sheety_headers, json=sheety_parameters)
+    sheety_response = requests.post(sheety_api_endpoint, headers=sheety_headers, json=sheety_parameters, auth=HTTPBasicAuth(USERNAME, PASSWORD))
     
  
     # check status code for response received

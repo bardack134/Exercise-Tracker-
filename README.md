@@ -12,3 +12,5 @@ os: A Python module used to access environment variables where the API keys are 
 Nutritionix API: An API used to get exercise and calorie burned data. https://docx.syndigo.com/developers/docs/natural-language-for-exercise
 
 Sheety API: An API used to store the exercise data in a Google Sheet. https://sheety.co/
+
+Set environmental variables to protect sensitive data.
